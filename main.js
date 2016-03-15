@@ -40,7 +40,6 @@ var XHRCache = {
 };
 window.MaximoSEER.toolbarInit().then(function () {
     console.log('Bootstrapped');
+    alert('Bootstrapped');
 });
-alert('calling toolbarinit');
-t.toolbarInit();
 alert('after toolbarInit');
